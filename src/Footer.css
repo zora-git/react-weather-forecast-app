@@ -1,0 +1,13 @@
+footer {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+
+@media (width < 768px) {
+  footer {
+    max-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+}

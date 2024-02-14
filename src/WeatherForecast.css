@@ -1,0 +1,56 @@
+.weather-forecast {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin: 3px;
+  border: transparent;
+  border-radius: 4px;
+  padding: 13px 10px;
+}
+
+.forecast-icon {
+  margin: 0 auto;
+  width: 70px;
+  height: 70px;
+}
+
+.forecast-date {
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.forecast-temps {
+  margin-top: 15px;
+}
+
+.forecast-max-temp {
+  font-weight: 700;
+}
+
+.forecast-min-temp {
+  font-weight: 200;
+}
+
+.forecast-description:first-letter {
+  text-transform: uppercase;
+}
+
+@media (width < 768px) {
+  .weather-forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    height: 100%;
+    margin: 0 auto;
+  }
+}
