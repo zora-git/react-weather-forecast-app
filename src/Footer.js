@@ -15,7 +15,7 @@ export default function Footer() {
         </a>{" "}
         and is {""}
         <a
-          href="https://github.com/zora-git/react-weather-app"
+          href="https://github.com/zora-git/react-weather-forecast-app"
           target="_blank"
           rel="noreferrer"
         >
